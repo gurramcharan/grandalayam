@@ -1,0 +1,43 @@
+.book-main-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: 0 0 0.4rem rgba(24, 216, 226, 0.4);
+}
+
+.book-img{
+    width: 200px;
+    height: 300px;
+}
+
+.book-name{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #055d12;
+}
+
+.book-author{
+    color:grey;
+
+}
+
+.book-shelf{
+    padding: 0.5rem;
+    border:1px solid rgb(19, 225, 221);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(206, 135, 5);
+}
